@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Video Skipper",
+    "version": "1.0",
+    "description": "To skip a YouTube video by 1 minute, press shift+d, or to go back 1 minute, press shift+a.",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": ""
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
